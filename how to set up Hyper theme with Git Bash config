@@ -15,6 +15,8 @@ if .bash_profile exsits in this route, type in below command in terminal,
 	export CLICOLOR=1
 	export LSCOLORS=GxFxCxDxBxegedabagaced
 	alias ls='ls -GFh'
+	
+	• source ~/.bash_profile        -->to reload the terminal       
       
 I can change the color of the text by changing the PS1 value, such as 
 	• export PS1="\033[32m[--\u's MBP-->\033[m$"
